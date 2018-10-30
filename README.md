@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HIT-NLP Lab1-segmentation
 path.py 包含代码中用到的所有文件的路径名
 
@@ -31,6 +30,7 @@ seg_BMM.txt 逆向最大匹配分词结果文件
 seg_LM.txt 二元语法模型分词结果文件
 
 seg_LM_bg.txt segmentation_LM+.py分词结果文件
+
 =======
 # segmentation
 # 哈尔滨工业大学自然语言处理实验一
