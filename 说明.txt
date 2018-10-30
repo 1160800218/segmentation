@@ -1,0 +1,16 @@
+1.代码在codes文件夹中
+2.输入及输出文本在text文件夹中
+3.各文件的说明在README中
+4.读写文件路径统一在./codes/path.py文件夹中修改
+5.以下说明对应实验要求中的各小问：
+（1）词典文件为dic.txt
+（2）正反向最大匹配分词结果输出文件分别为seg_FMM.txt和seg_BMM.txt，如需重新分词请运行forward_maximum_matching.py和backward_maximum_matching.py的main()函数
+（3）正反向最大匹配分词的性能分析结果输出文件为score.txt，如需重新测试请运行performance_analysis.py的analysis(seg_text, gold_std_path)
+        seg_text：待分析分词结果文件路径
+        gold_std_path：基于199801_seg.txt提取的标准分词文件路径，对应text文件夹中的golden_standard.txt
+（4）正反向最大匹配分析的时间消耗结果输出文件为timeCost.txt，如需重新测试请运行performance_analysis.py的time_analysis()函数，会同时输出FMM、BMM、FMM&BMM的时间消耗
+（5）一元语法模型分词请运行segmentation_LM.py的test_1_gram(in_path, out_path)函数
+     二元语法模型分词请运行segmentation_LM.py的test_2_gram(in_path, out_path)函数
+        in_path：待分词文件路径
+        out_path：分词结果输出路径
+     控制台输出分词消耗时间和分词性能

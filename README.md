@@ -1,5 +1,5 @@
 # HIT-NLP Lab1-segmentation
-path.py 包含代码中用到的所有文件的路径名
+path.py 包含代码中用到的所有文本文件的路径名
 
 helper.py 包含一些公共函数及数据结构
 

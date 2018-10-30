@@ -25,7 +25,7 @@ def build_pfdict(dic_path):
     return lfreq, ltotal
 
 
-# 获得前词词典
+# 获得关联词词典
 def pro_prefix_dictionary():
     pfreq={}
     with open(conj_dic, 'r') as f:
@@ -180,37 +180,36 @@ def segmentation_graph(filepath, seg, lfreq, pfreq):
 
 
 # 测试一元文法分词并进行时间及性能分析
-def test_1_gram():
+def test_1_gram(in_path, out_path):
     lfreq, ltotal = build_pfdict(dic_path)
     # print(lfreq, ltotal)
     seg = []
     start_time = time.time()
-    segmentation_mr(sent_path, seg, lfreq, ltotal)
+    segmentation_mr(in_path, seg, lfreq, ltotal)
     end_time = time.time()
     print(round((end_time - start_time) * 1000), 'ms')
-    output_2_file(seg, seg_LM_path)
+    output_2_file(seg, out_path)
     # 分词评价
-    analysis(seg_LM_path, gold_std_path)
+    analysis(out_path, gold_std_path)
 
 
 # 测试二元文法分词并进行时间和性能分析
-def test_2_gram():
+def test_2_gram(in_path, out_path):
     lfreq, ltotal = build_pfdict(dic_path)
     pfreq = pro_prefix_dictionary()
     seg = []
     start_time = time.time()
-    segmentation_graph(sent_path, seg, lfreq, pfreq)
+    segmentation_graph(in_path, seg, lfreq, pfreq)
     end_time = time.time()
     print(round((end_time - start_time) * 1000), 'ms')
-    output_2_file(seg, seg_LM_path)
+    output_2_file(seg, out_path)
     # 分词评价
-    analysis(seg_LM_path, gold_std_path)
+    analysis(out_path, gold_std_path)
 
 
 def main():
-    test_1_gram()
-    test_2_gram()
-    # analysis('seg_LM_bg.txt', gold_std_path)
+    test_1_gram(sent_path, seg_LM_path)
+    test_2_gram(sent_path, seg_LM_path)
 
 
 if __name__ == '__main__':

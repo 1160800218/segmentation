@@ -143,7 +143,7 @@ def main():
     # 时间分析
     time_analysis()
     # 分词评价
-    bulid_golden_standard(seg_path)
+    # bulid_golden_standard(seg_path)
     print('正向最大匹配分词:')
     fmm_analysis = analysis(seg_FMM_path, gold_std_path)
     print('\n')
