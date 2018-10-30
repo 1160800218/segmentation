@@ -32,6 +32,3 @@ seg_LM.txt 二元语法模型分词结果文件
 seg_LM_bg.txt segmentation_LM+.py分词结果文件
 
 =======
-# segmentation
-# 哈尔滨工业大学自然语言处理实验一
->>>>>>> 2ca443bd43d945a18e41d19bfc1c975379ed47a7
