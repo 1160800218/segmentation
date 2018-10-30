@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a31470fb-51e0-4c6a-88ad-903fd97d2bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/performance_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/segmentation_LM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/segmentation_bg_failed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/golden_standard.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/newdic.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/score.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/seg_BMM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/seg_FMM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/seg_LM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/timeCost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/199801_seg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/199801_seg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/199801_sent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/199801_sent.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backward_maximum_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/backward_maximum_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/build_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/dic.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forward_maximum_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/forward_maximum_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golden_standard.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/performance_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seg_BMM.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seg_FMM.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_cost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trie_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/trie_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +33,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="72" />
-          <entry key="txt" value="144" />
+          <entry key="py" value="73" />
+          <entry key="txt" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="144" />
-          <entry key="Python" value="72" />
+          <entry key="PLAIN_TEXT" value="146" />
+          <entry key="Python" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,13 +50,13 @@
           <entry key="dummy" value="9" />
           <entry key="md" value="686" />
           <entry key="py" value="15642" />
-          <entry key="txt" value="25" />
+          <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="686" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="64" />
           <entry key="Python" value="16020" />
         </counts>
       </usages-collector>
@@ -114,47 +89,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="589">
-                <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codes/segmentation_LM+.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-                <element signature="e#583#1037#0" />
-                <element signature="e#1082#1526#0" />
-                <element signature="e#1563#1941#0" />
-                <element signature="e#2344#2541#0" />
-                <element signature="e#2632#3357#0" />
-                <element signature="e#3387#3468#0" />
-                <element signature="e#3985#5010#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codes/path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codes/segmentation_LM.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -196,6 +131,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="1160800218 &lt;lzjjeffery@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -260,11 +200,6 @@
             <path>
               <item name="segmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="segmentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="segmentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="segmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,6 +366,14 @@
       <option name="presentableId" value="Default" />
       <updated>1537890521185</updated>
     </task>
+    <task id="LOCAL-00001" summary="2-gram finished">
+      <created>1540895397272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540895397273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -444,17 +387,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.14729194" />
       <window_info id="Favorites" order="2" sideWeight="0.5023148" side_tool="true" weight="0.14729194" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3177305" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.21702127" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.21702127" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49932975" visible="true" weight="0.21702127" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32907802" />
@@ -467,6 +409,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2-gram finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-gram finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/dic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199880">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/newdic.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -686,17 +625,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/seg_LM_bg.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3574" column="30" lean-forward="true" selection-start-line="3574" selection-start-column="30" selection-end-line="3574" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codes/performance_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1588">
           <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+            <marker date="1540871446889" expanded="true" signature="854:859" ph="..." />
+            <marker date="1540871446889" expanded="true" signature="2987:3829" ph="..." />
+            <marker date="1540871446889" expanded="true" signature="3464:3829" ph="..." />
+            <marker date="1540871446889" expanded="true" signature="3851:3856" ph="..." />
+            <marker date="1540871446889" expanded="true" signature="3882:3887" ph="..." />
+            <marker date="1540871446889" expanded="true" signature="3941:3946" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="589">
+            <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/dic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/seg_LM_bg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3574" column="30" selection-start-line="3574" selection-start-column="30" selection-end-line="3574" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/segmentation_LM+.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,40 +699,6 @@
             <element signature="e#5429#5757#0" />
             <marker date="1540883346418" expanded="true" signature="199:1662" ph="..." />
             <marker date="1540883346418" expanded="true" signature="6157:6162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="589">
-            <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/segmentation_LM+.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-            <element signature="e#583#1037#0" />
-            <element signature="e#1082#1526#0" />
-            <element signature="e#1563#1941#0" />
-            <element signature="e#2344#2541#0" />
-            <element signature="e#2632#3357#0" />
-            <element signature="e#3387#3468#0" />
-            <element signature="e#3985#5010#0" />
           </folding>
         </state>
       </provider>
