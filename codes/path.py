@@ -1,0 +1,11 @@
+dic_path = "./text/dic.txt"
+seg_path = './text/199801_seg.txt'
+sent_path = './text/199801_sent.txt'
+gold_std_path = './text/golden_standard.txt'
+timeCost_path = './text/timeCost.txt'
+score_path = './text/score.txt'
+seg_FMM_path = './text/seg_FMM.txt'
+seg_BMM_path = './text/seg_BMM.txt'
+conj_dic = './text/newdic.txt'
+seg_LM_path = './text/seg_LM.txt'
+seg_LM_bg_path = 'seg_LM_bg.txt'
